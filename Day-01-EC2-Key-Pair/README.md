@@ -14,13 +14,13 @@ The goal was to create a key pair with specific requirements while ensuring corr
 
 ---
 
-## ⚙️ AWS Services Used
+## AWS Services Used
 - **Amazon EC2**
   - EC2 Key Pairs
 
 ---
 
-## ✅ Steps Performed
+## Steps Performed
 1. Switched AWS Console region to **N. Virginia (us-east-1)**.
 2. Navigated to **EC2 → Key Pairs**.
 3. Created a new key pair with:

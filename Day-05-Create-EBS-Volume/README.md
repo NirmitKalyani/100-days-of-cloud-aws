@@ -34,9 +34,11 @@ The objective was to create an EBS volume with specific size and type requiremen
 The following screenshots confirm successful completion of the task:
 
 - **EBS volume list showing name, type, and size:**  
+  
   ![EBS Volume List Screenshot](screenshots/ebs-volume-list.png)
 
 - **EBS volume details view confirming configuration:**  
+  
   ![EBS Volume Details Screenshot](screenshots/ebs-volume-details.png)
 
 ---

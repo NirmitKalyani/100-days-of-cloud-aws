@@ -40,15 +40,19 @@ The objective was to launch an EC2 instance with a defined AMI, instance type, k
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instances list showing instance name and type:**  
+  
   ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **EC2 instance details confirming AMI, instance type, and key pair:**  
+  
   ![EC2 Instance Details Screenshot](screenshots/ec2-instance-details.png)
 
 - **Key pair list showing RSA key pair:**  
+  
   ![Key Pair List Screenshot](screenshots/key-pair-list.png)
 
 - **Instance security tab confirming default security group:**  
+  
   ![Instance Security Tab Screenshot](screenshots/instance-security-group.png)
 
 ---

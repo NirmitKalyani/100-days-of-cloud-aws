@@ -39,13 +39,16 @@ The objective was to change the instance type of an underutilized EC2 instance w
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instances list showing updated instance type:**  
-  `screenshots/ec2-instance-type-updated.png`
+
+  ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **EC2 instance details confirming new instance type:**  
-  `screenshots/ec2-instance-details.png`
+  
+  ![EC2 Instance Details Screenshot](screenshots/ec2-instance-details.png)
 
 - **Status check tab showing completed checks:**  
-  `screenshots/ec2-status-check.png`
+  
+  ![EC2 Instance Status Check Screenshot](screenshots/instance-status-checks.png)
 
 ---
 

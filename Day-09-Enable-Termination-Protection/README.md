@@ -34,10 +34,12 @@ The objective was to enable termination protection for an existing EC2 instance 
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instances list showing `devops-ec2`:**  
-  `screenshots/ec2-instance-list.png`
+  
+  ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **Instance details confirming termination protection is enabled:**  
-  `screenshots/termination-protection-enabled.png`
+  
+  ![Termination Protection Enabled Screenshot](screenshots/termination-protection-enabled.png)
 
 ---
 

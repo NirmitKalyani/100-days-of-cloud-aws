@@ -34,10 +34,12 @@ The objective was to enable stop protection for an existing EC2 instance in the 
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instances list showing `devops-ec2`:**  
-  `screenshots/ec2-instance-list.png`
+  
+  ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **Instance details confirming stop protection is enabled:**  
-  `screenshots/stop-protection-enabled.png`
+
+  ![Stop Protection Enabled Screenshot](screenshots/stop-protection-enabled.png)
 
 ---
 

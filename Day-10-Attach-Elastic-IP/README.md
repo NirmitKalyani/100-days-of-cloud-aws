@@ -8,8 +8,8 @@ The objective was to attach an existing Elastic IP to the specified EC2 instance
 ---
 
 ## Requirements
-- **EC2 Instance Name:** `nautilus-ec2`
-- **Elastic IP Name:** `nautilus-ec2-eip`
+- **EC2 Instance Name:** `devops-ec2`
+- **Elastic IP Name:** `devops-ec2-eip`
 - **AWS Region:** `us-east-1` (N. Virginia)
 
 ---
@@ -24,9 +24,9 @@ The objective was to attach an existing Elastic IP to the specified EC2 instance
 ## Steps Performed
 1. Switched AWS Console region to **N. Virginia (us-east-1)**.
 2. Navigated to **EC2 → Elastic IPs**.
-3. Selected the Elastic IP named **`nautilus-ec2-eip`**.
+3. Selected the Elastic IP named **`devops-ec2-eip`**.
 4. Clicked **Actions → Associate Elastic IP**.
-5. Selected the EC2 instance **`nautilus-ec2`**.
+5. Selected the EC2 instance **`devops-ec2`**.
 6. Completed the association process.
 7. Verified the Elastic IP was successfully attached to the instance.
 
@@ -35,16 +35,18 @@ The objective was to attach an existing Elastic IP to the specified EC2 instance
 ## Verification
 The following screenshots confirm successful completion of the task:
 
-- **EC2 instances list showing `nautilus-ec2`:**  
-  `screenshots/ec2-instance-list.png`
+- **EC2 instances list showing `devops-ec2`:**  
+  
+  ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **Elastic IP associated with the EC2 instance:**  
-  `screenshots/elastic-ip-associated.png`
+  
+  ![Elastic IP Associated Screenshot](screenshots/elastic-ip-associated.png)
 
 ---
 
 ## Outcome
-The Elastic IP `nautilus-ec2-eip` was successfully attached to the EC2 instance `nautilus-ec2` in the `us-east-1` region, ensuring a persistent public IP address for the instance.
+The Elastic IP `devops-ec2-eip` was successfully attached to the EC2 instance `devops-ec2` in the `us-east-1` region, ensuring a persistent public IP address for the instance.
 
 ---
 

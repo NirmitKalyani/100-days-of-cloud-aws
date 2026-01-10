@@ -36,10 +36,10 @@ The task required creating a single subnet under the **default VPC** while ensur
 The following screenshots confirm successful completion of the task:
 
 - **Subnet listing showing name, VPC, and CIDR block:**  
-  `screenshots/subnet-list.png`
+  ![Subnet List Screenshot](screenshots/subnet-list.png)
 
 - **Subnet details view confirming default VPC and availability zone:**  
-  `screenshots/subnet-details.png`
+  ![Subnet Details Screenshot](screenshots/subnet-details.png)
 
 ---
 

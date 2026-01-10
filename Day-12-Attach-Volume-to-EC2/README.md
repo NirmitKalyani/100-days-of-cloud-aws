@@ -36,10 +36,12 @@ The objective was to attach an already available EBS volume to an EC2 instance u
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instance storage tab showing attached volume and device name:**  
-  `screenshots/ec2-volume-attached.png`
+  
+  ![EC2 Volume Attached Screenshot](screenshots/ec2-volume-attached.png)
 
 - **EBS volume list showing volume state as in-use:**  
-  `screenshots/ebs-volume-in-use.png`
+  
+  ![EBS Volume In Use Screenshot](screenshots/ebs-volume-in-use.png)
 
 ---
 

@@ -27,10 +27,12 @@ The objective was to attach a specified ENI to a running EC2 instance and verify
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instance list showing instance is running and associated network interface:**  
-  `screenshots/ec2-instance-list.png`
+  
+  ![EC2 Instance List Screenshot](screenshots/ec2-instance-list.png)
 
 - **Network interface details showing attached status and associated instance:**  
-  `screenshots/network-interface-attached.png`
+  
+  ![Network Interface Attached Screenshot](screenshots/network-interface-attached.png)
 
 ---
 

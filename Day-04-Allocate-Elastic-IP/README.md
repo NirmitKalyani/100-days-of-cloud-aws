@@ -32,10 +32,10 @@ The objective was to allocate an Elastic IP and properly name it for identificat
 The following screenshots confirm successful completion of the task:
 
 - **Elastic IP list showing allocated address and name tag:**  
-  `screenshots/elastic-ip-list.png`
+  ![Elastic IP List Screenshot](screenshots/elastic-ip-list.png)
 
 - **Elastic IP details view confirming allocation and region:**  
-  `screenshots/elastic-ip-details.png`
+  ![Elastic IP Details Screenshot](screenshots/elastic-ip-details.png)
 
 ---
 

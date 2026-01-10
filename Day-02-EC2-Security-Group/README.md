@@ -40,10 +40,10 @@ The objective was to define a security group with specific inbound rules while e
 The following screenshots confirm successful completion of the task:
 
 - **Security group listing:**  
-  `screenshots/sg-list.png`
+  ![Security Group Listing Screenshot](screenshots/security-group-list.png)
 
 - **Inbound rules configuration:**  
-  `screenshots/inbound-rules.png`
+  ![Inbound Rules Screenshot](screenshots/inbound-rules.png)
 
 ---
 

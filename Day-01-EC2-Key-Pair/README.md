@@ -39,7 +39,7 @@ The following screenshots confirm successful completion of the task:
   ![Region Confirmation Screenshot](screenshots/region-us-east-1.png)
 
 - **Key pair listing showing name and type:**  
-  ![Region Confirmation Screenshot](screenshots/key-pair-list.png)
+  ![Key Pair List Screenshot](screenshots/key-pair-list.png)
 
 ---
 

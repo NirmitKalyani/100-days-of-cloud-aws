@@ -36,10 +36,10 @@ The goal was to create a key pair with specific requirements while ensuring corr
 The following screenshots confirm successful completion of the task:
 
 - **Region confirmation:**  
-  `screenshots/region-us-east-1.png`
+  ![Region Confirmation Screenshot](screenshots/region-us-east-1.png)
 
 - **Key pair listing showing name and type:**  
-  `screenshots/key-pair-list.png`
+  ![Region Confirmation Screenshot](screenshots/key-pair-list.png)
 
 ---
 

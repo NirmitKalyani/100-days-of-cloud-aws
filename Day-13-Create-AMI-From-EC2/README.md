@@ -36,10 +36,12 @@ The objective was to create an AMI from an existing EC2 instance and ensure it r
 The following screenshots confirm successful completion of the task:
 
 - **AMI list showing name and state as available:**  
-  `screenshots/ami-list-available.png`
+  
+  ![AMI List Screenshot](screenshots/ami-list-available.png)
 
 - **AMI details confirming source instance:**  
-  `screenshots/ami-details.png`
+  
+  ![AMI Details Screenshot](screenshots/ami-details.png)
 
 ---
 

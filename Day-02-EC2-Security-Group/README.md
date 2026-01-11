@@ -7,6 +7,22 @@ The objective was to define a security group with specific inbound rules while e
 
 ---
 
+## Concept
+A security group acts as a virtual firewall for EC2 instances, controlling inbound
+and outbound traffic based on defined rules. Security groups are stateful and
+operate at the instance level.
+
+---
+
+## Real-World Use Case
+Security groups are commonly used to:
+- Restrict access to applications and servers
+- Allow traffic only from trusted sources
+- Protect EC2 instances from unauthorized access
+- Enforce network security best practices
+
+---
+
 ## Requirements
 - **Security group name:** `xfusion-sg`
 - **Description:** Security group for Nautilus App Servers

@@ -7,6 +7,22 @@ The objective was to attach an already available EBS volume to an EC2 instance u
 
 ---
 
+## Concept
+Amazon Elastic Block Store (EBS) provides persistent block-level storage that can be
+attached to EC2 instances. EBS volumes are independent of the EC2 lifecycle, allowing
+storage to be attached, detached, and reused without affecting the instance itself.
+
+---
+
+## Real-World Use Case
+In real-world scenarios, EBS volumes are commonly used to:
+- Add additional storage to running EC2 instances without downtime
+- Separate application data from the operating system
+- Persist data even if an EC2 instance is stopped or terminated
+- Migrate or reuse storage across different EC2 instances
+
+---
+
 ## Requirements
 - **EC2 instance name:** `devops-ec2`
 - **EBS volume name:** `devops-volume`
@@ -36,17 +52,19 @@ The objective was to attach an already available EBS volume to an EC2 instance u
 The following screenshots confirm successful completion of the task:
 
 - **EC2 instance storage tab showing attached volume and device name:**  
-  
+
   ![EC2 Volume Attached Screenshot](screenshots/ec2-volume-attached.png)
 
 - **EBS volume list showing volume state as in-use:**  
-  
+
   ![EBS Volume In Use Screenshot](screenshots/ebs-volume-in-use.png)
 
 ---
 
 ## Outcome
-The EBS volume `devops-volume` was successfully attached to the EC2 instance `devops-ec2` with the device name `/dev/sdb`. The volume state shows **in-use**, confirming successful attachment.
+The EBS volume `devops-volume` was successfully attached to the EC2 instance `devops-ec2`
+with the device name `/dev/sdb`. The volume state shows **in-use**, confirming successful
+attachment.
 
 ---
 

@@ -7,6 +7,22 @@ The objective was to allocate an Elastic IP and properly name it for identificat
 
 ---
 
+## Concept
+An Elastic IP (EIP) is a static public IPv4 address allocated to an AWS account.
+Elastic IPs remain available until explicitly released and can be associated or
+disassociated with AWS resources as needed.
+
+---
+
+## Real-World Use Case
+Elastic IPs are commonly used to:
+- Provide stable public access to servers
+- Maintain the same IP address during instance replacement
+- Support legacy systems requiring fixed IPs
+- Avoid DNS changes during infrastructure updates
+
+---
+
 ## Requirements
 - **Elastic IP name:** `xfusion-eip`
 - **AWS Region:** `us-east-1` (N. Virginia)

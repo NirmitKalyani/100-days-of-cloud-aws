@@ -7,6 +7,22 @@ The objective was to launch an EC2 instance with a defined AMI, instance type, k
 
 ---
 
+## Concept
+Amazon EC2 provides scalable virtual servers in the cloud that can be launched with
+custom configurations such as AMI, instance type, key pair, and security groups.
+EC2 instances form the core compute layer of AWS workloads.
+
+---
+
+## Real-World Use Case
+Launching EC2 instances is commonly used to:
+- Host web applications and backend services
+- Run development, testing, and staging environments
+- Deploy compute resources for batch jobs and automation
+- Scale applications based on demand
+
+---
+
 ## Requirements
 - **Instance name:** `datacenter-ec2`
 - **AMI:** Amazon Linux

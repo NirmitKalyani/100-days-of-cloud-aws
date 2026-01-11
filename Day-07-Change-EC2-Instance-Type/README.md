@@ -7,6 +7,22 @@ The objective was to change the instance type of an underutilized EC2 instance w
 
 ---
 
+## Concept
+EC2 instance types define the compute, memory, and networking capacity of an instance.
+AWS allows instance resizing by changing the instance type, enabling users to
+right-size resources based on workload requirements.
+
+---
+
+## Real-World Use Case
+Modifying EC2 instance types is commonly used to:
+- Reduce costs by downsizing underutilized instances
+- Increase performance during high traffic or peak loads
+- Optimize resources after monitoring application usage
+- Adjust infrastructure without redeploying applications
+
+---
+
 ## Requirements
 - **Instance name:** `nautilus-ec2`
 - **Current instance type:** `t2.micro`

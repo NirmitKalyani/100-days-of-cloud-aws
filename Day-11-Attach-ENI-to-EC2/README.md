@@ -7,6 +7,23 @@ The objective was to attach a specified ENI to a running EC2 instance and verify
 
 ---
 
+## Concept
+An Elastic Network Interface (ENI) is a virtual network interface that can be attached
+to an EC2 instance. ENIs allow advanced networking features such as multiple private IP
+addresses, traffic isolation, and flexible network configurations independent of the
+instance lifecycle.
+
+---
+
+## Real-World Use Case
+Elastic Network Interfaces are commonly used to:
+- Implement multi-homed EC2 instances with multiple network interfaces
+- Separate network traffic for different applications or environments
+- Support high-availability and failover architectures
+- Retain network configurations while moving interfaces between instances
+
+---
+
 ## Requirements
 - **Region:** us-east-1
 - **EC2 Instance:** `datacenter-ec2`

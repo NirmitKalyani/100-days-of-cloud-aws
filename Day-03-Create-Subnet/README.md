@@ -7,6 +7,22 @@ The task required creating a single subnet under the **default VPC** while ensur
 
 ---
 
+## Concept
+A subnet is a logical subdivision of a VPC that defines a range of IP addresses.
+Subnets enable resource organization, network isolation, and availability zone
+placement within a VPC.
+
+---
+
+## Real-World Use Case
+Subnets are commonly used to:
+- Separate public and private resources within a VPC
+- Deploy applications across multiple availability zones
+- Implement network-level security and traffic control
+- Design scalable and highly available network architectures
+
+---
+
 ## Requirements
 - **Subnet name:** `nautilus-subnet`
 - **VPC:** Default VPC

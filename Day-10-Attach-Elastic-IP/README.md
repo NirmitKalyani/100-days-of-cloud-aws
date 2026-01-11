@@ -7,6 +7,22 @@ The objective was to attach an existing Elastic IP to the specified EC2 instance
 
 ---
 
+## Concept
+An Elastic IP (EIP) is a static public IPv4 address provided by AWS that can be associated
+with an EC2 instance. Unlike public IPs assigned automatically, Elastic IPs remain
+persistent and can be remapped between instances.
+
+---
+
+## Real-World Use Case
+Elastic IPs are commonly used to:
+- Provide a fixed public IP address for applications and servers
+- Remap traffic to a healthy instance during failures
+- Avoid DNS changes when replacing EC2 instances
+- Ensure consistent external access to production systems
+
+---
+
 ## Requirements
 - **EC2 Instance Name:** `devops-ec2`
 - **Elastic IP Name:** `devops-ec2-eip`

@@ -7,6 +7,22 @@ The objective was to create an EBS volume with specific size and type requiremen
 
 ---
 
+## Concept
+Amazon Elastic Block Store (EBS) provides persistent block storage that can be used
+with EC2 instances. EBS volumes are independent resources that retain data even
+when instances are stopped or terminated.
+
+---
+
+## Real-World Use Case
+EBS volumes are commonly used to:
+- Store application data separately from the OS
+- Persist databases and logs on EC2 instances
+- Increase storage capacity without recreating instances
+- Support backup and snapshot-based recovery strategies
+
+---
+
 ## Requirements
 - **Volume name:** `nautilus-volume`
 - **Volume type:** `gp3`

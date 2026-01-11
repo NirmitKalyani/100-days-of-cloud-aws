@@ -7,6 +7,22 @@ The objective was to enable stop protection for an existing EC2 instance in the 
 
 ---
 
+## Concept
+Stop protection is an EC2 instance attribute that prevents an instance from being
+stopped accidentally. This helps ensure that important workloads remain continuously
+available unless the protection is manually disabled.
+
+---
+
+## Real-World Use Case
+Stop protection is commonly used to:
+- Keep critical services running without interruption
+- Prevent accidental downtime in production environments
+- Protect instances that support monitoring, logging, or security tools
+- Enforce operational discipline in shared AWS accounts
+
+---
+
 ## Requirements
 - **EC2 instance name:** `devops-ec2`
 - **Stop protection:** Enabled

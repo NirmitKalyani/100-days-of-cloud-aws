@@ -7,6 +7,22 @@ The objective was to create an AMI from an existing EC2 instance and ensure it r
 
 ---
 
+## Concept
+An Amazon Machine Image (AMI) is a reusable template that contains the operating system,
+application configuration, and attached storage of an EC2 instance. AMIs enable quick and
+consistent provisioning of new EC2 instances without manual setup.
+
+---
+
+## Real-World Use Case
+In real-world production environments, AMIs are commonly used to:
+- Launch identical EC2 instances using Auto Scaling Groups
+- Create backups of critical servers
+- Quickly restore systems during disaster recovery
+- Maintain consistent environments across development, staging, and production
+
+---
+
 ## Requirements
 - **Source EC2 instance name:** `devops-ec2`
 - **AMI name:** `devops-ec2-ami`
@@ -36,17 +52,18 @@ The objective was to create an AMI from an existing EC2 instance and ensure it r
 The following screenshots confirm successful completion of the task:
 
 - **AMI list showing name and state as available:**  
-  
+
   ![AMI List Screenshot](screenshots/ami-list-available.png)
 
 - **AMI details confirming source instance:**  
-  
+
   ![AMI Details Screenshot](screenshots/ami-details.png)
 
 ---
 
 ## Outcome
-The AMI **`devops-ec2-ami`** was successfully created from the EC2 instance **`devops-ec2`** and is now in the **Available** state, making it ready for reuse to launch new EC2 instances.
+The AMI **`devops-ec2-ami`** was successfully created from the EC2 instance **`devops-ec2`**
+and is now in the **Available** state, making it ready for reuse to launch new EC2 instances.
 
 ---
 
@@ -58,4 +75,4 @@ The AMI **`devops-ec2-ami`** was successfully created from the EC2 instance **`d
 
 ---
 
-**Status:** Completed 
+**Status:** Completed

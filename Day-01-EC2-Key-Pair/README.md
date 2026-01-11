@@ -7,6 +7,22 @@ The goal was to create a key pair with specific requirements while ensuring corr
 
 ---
 
+## Concept
+An EC2 key pair consists of a public and private key used to securely access EC2
+instances via SSH. AWS stores the public key, while the private key must be
+securely saved by the user.
+
+---
+
+## Real-World Use Case
+EC2 key pairs are commonly used to:
+- Enable secure SSH access to Linux EC2 instances
+- Authenticate administrators without passwords
+- Control access to servers in cloud environments
+- Support secure operational and DevOps workflows
+
+---
+
 ## Requirements
 - **Key pair name:** `datacenter-kp`
 - **Key pair type:** RSA

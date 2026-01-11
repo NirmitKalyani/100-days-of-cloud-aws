@@ -7,6 +7,22 @@ The objective was to enable termination protection for an existing EC2 instance 
 
 ---
 
+## Concept
+Termination protection is an EC2 instance setting that prevents accidental termination
+of instances. When enabled, AWS blocks termination actions unless the protection is
+explicitly disabled first.
+
+---
+
+## Real-World Use Case
+Termination protection is typically used to:
+- Safeguard critical production and database servers
+- Prevent human errors during maintenance or automation
+- Add an extra layer of protection for long-running workloads
+- Ensure business-critical instances are not deleted unintentionally
+
+---
+
 ## Requirements
 - **EC2 instance name:** `devops-ec2`
 - **Termination protection:** Enabled

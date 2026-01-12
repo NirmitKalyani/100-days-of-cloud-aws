@@ -40,7 +40,7 @@ In real-world cloud environments, EBS snapshots are commonly used to:
 ## Steps Performed
 1. Switched AWS Console region to **N. Virginia (us-east-1)**.
 
-   ![Region Selection](screenshots/step-1-volume-selection.png)
+   ![Region Selection](screenshots/region-us-east-1.png)
 
 2. Navigated to **EC2 → Volumes** and selected the volume named **`devops-vol`**.
 

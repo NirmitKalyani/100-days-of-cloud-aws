@@ -36,19 +36,19 @@ IAM groups are commonly used to:
 ## Steps Performed
 1. Navigated to **Services → IAM**.
 
-   ![Navigate to IAM](screenshots/step-1-open-iam.png)
+   ![Navigate to IAM](screenshots/step-1-open-iam.PNG)
 
 2. Selected **User groups** from the left navigation panel.
 
-   ![IAM User Groups](screenshots/step-2-user-groups.png)
+   ![IAM User Groups](screenshots/step-2-user-groups.PNG)
 
 3. Entered the group name as **`iamgroup_ravi`**.
 
-   ![Enter Group Name](screenshots/step-3-group-name.png)
+   ![Enter Group Name](screenshots/step-3-group-name.PNG)
 
 4. Skipped attaching policies (as none were required for this task).
 
-   ![Skip Policy Attachment](screenshots/step-4-skip-policies.png)
+   ![Skip Policy Attachment](screenshots/step-4-skip-policies.PNG)
 
 ---
 
@@ -57,11 +57,11 @@ The following screenshots confirm successful completion of the task:
 
 - **IAM groups list showing `iamgroup_ravi`:**
 
-  ![IAM Group Created](screenshots/verification-group-list.png)
+  ![IAM Group Created](screenshots/verification-group-list.PNG)
 
 - **IAM group details page confirming group creation:**
 
-  ![IAM Group Details](screenshots/verification-group-details.png)
+  ![IAM Group Details](screenshots/verification-group-details.PNG)
 
 ---
 

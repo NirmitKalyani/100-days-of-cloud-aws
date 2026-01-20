@@ -42,7 +42,7 @@ S3 data migration is commonly used to:
 
 ## Steps Performed
 
-1. Verified that AWS CLI was operating in the **us-east-1** region.
+1. Verified that AWS CLI was configured properly and was operating in the **us-east-1** region.
 
    ![Verify AWS CLI](screenshots/verify-region.png)
 

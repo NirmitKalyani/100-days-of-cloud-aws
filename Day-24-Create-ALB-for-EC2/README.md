@@ -1,4 +1,4 @@
-# Day 25 – Configure Application Load Balancer with EC2 (AWS)
+# Day 24 – Configure Application Load Balancer with EC2 (AWS)
 
 ## Task Overview
 As part of the **100 Days of Cloud (AWS)** challenge by KodeKloud, this task focuses on setting up an **Application Load Balancer (ALB)** in front of an EC2 instance running an **Nginx server**.

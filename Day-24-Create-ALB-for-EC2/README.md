@@ -33,7 +33,7 @@ Application Load Balancers are widely used to:
 - **Listener port:** 80 (HTTP)
 - **Target port:** 80
 - **EC2 instance:** `nautilus-ec2`
-- **Region:** As provided in the lab
+- **Region:** `us-east-1`
 
 ---
 

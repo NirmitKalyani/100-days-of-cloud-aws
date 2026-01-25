@@ -41,6 +41,7 @@ Private ECR repositories are commonly used to store proprietary container images
    ![Step 1 – AWS Credentials and CLI Configuration](screenshots/step-1-aws-creds-config.png)
    
 2. Created a private Amazon ECR repository named nautilus-ecr using the AWS CLI command aws ecr create-repository --repository-name nautilus-ecr.
+
    ![Step 2 – Create ECR Repository](screenshots/step-2-create-ecr-repo.png)
 
 3. Authenticated Docker with Amazon ECR using the command aws ecr get-login-password piped to docker login with the ECR registry URI. 

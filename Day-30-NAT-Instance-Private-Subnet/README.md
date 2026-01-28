@@ -179,4 +179,4 @@ Successfully enabled internet access for a private EC2 instance using a **NAT In
 
 ---
 
-Status: Completed
+**Status:** Completed

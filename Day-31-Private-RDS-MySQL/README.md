@@ -131,13 +131,15 @@ Waited for the RDS instance **`devops-rds`** to reach the **Available** state, c
 ## Verification
 The following validations confirm successful completion of the task:
 
-- RDS instance **`devops-rds`** is in **Available** state  
+- RDS instance **`devops-rds`** is in **Available** state
+  
   ![RDS Status Verified](screenshots/verification-rds-status.png)
 
 - RDS instance **`devops-rds`** details:
 	- Instance class set to **db.t3.micro**  
 	- MySQL engine version **8.4.x** configured  
 	- Storage autoscaling enabled with **50 GB threshold**  
+  
   ![Autoscaling Verified](screenshots/verification-rds-details.png)
 
 ---

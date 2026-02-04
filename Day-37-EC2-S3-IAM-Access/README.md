@@ -13,7 +13,8 @@ AWS **IAM Roles** provide temporary credentials to EC2 instances, allowing secur
 By combining:
 - IAM roles and policies
 - Private S3 buckets
-- SSH key-based authentication  
+- SSH key-based authentication
+  
 we achieve a **secure and scalable EC2-to-S3 integration**.
 
 ---

@@ -41,7 +41,6 @@ Hosting static websites on S3 is commonly used for:
 
 ## AWS Services Used
 - Amazon S3
-- AWS Management Console
 - AWS CLI
 
 ---
@@ -59,7 +58,6 @@ Logged in to the AWS Management Console and navigated to the **Amazon S3** servi
 Clicked **Create bucket** and selected:
 - Bucket type: **General purpose**
 - Bucket name: `devops-web-328`
-- Region: `us-east-1`
 
 ![Create Bucket](screenshots/ss2-create-bucket.png)
 

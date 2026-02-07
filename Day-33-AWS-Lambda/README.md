@@ -127,6 +127,4 @@ AWS Lambda is commonly used to:
 
 ---
 
-## Status
-
 **Status:** Completed 

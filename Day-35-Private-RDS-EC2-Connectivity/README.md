@@ -227,6 +227,4 @@ A **private MySQL RDS instance** was successfully provisioned and securely conne
 
 ---
 
-## Status
-
 **Status:** Completed

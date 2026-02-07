@@ -148,5 +148,4 @@ A static website was successfully hosted using **Amazon S3**, making the content
 
 ---
 
-## Status
 **Status:** Completed

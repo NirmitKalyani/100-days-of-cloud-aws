@@ -134,6 +134,4 @@ The Lambda function was successfully deployed using **AWS CLI only**, without an
 
 ---
 
-## Status
-
 **Status:** Completed 

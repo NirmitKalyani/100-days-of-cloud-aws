@@ -212,6 +212,4 @@ A highly available web server environment was successfully deployed using an EC2
 
 ---
 
-## Status
-
 **Status:** Completed

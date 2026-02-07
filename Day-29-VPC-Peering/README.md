@@ -131,4 +131,4 @@ The private EC2 instance is now accessible from the public EC2 instance.
 
 ---
 
-Status: Completed
+**Status:** Completed

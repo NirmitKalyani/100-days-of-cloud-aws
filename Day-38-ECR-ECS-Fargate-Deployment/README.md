@@ -222,5 +222,4 @@ A containerized application was successfully deployed using **Amazon ECR**, **Am
 
 ---
 
-## Status
 **Status:** Completed

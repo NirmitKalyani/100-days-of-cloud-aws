@@ -109,6 +109,4 @@ RDS snapshot and restore is commonly used to:
 
 ---
 
-## Status
-
 **Status:** Completed

@@ -169,5 +169,4 @@ The issue was resolved by attaching the **Internet Gateway** to the VPC, which r
 
 ---
 
-## Status
 **Status:** Completed

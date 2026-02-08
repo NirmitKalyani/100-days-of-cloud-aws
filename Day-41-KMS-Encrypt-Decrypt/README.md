@@ -44,7 +44,6 @@ AWS KMS is widely used to meet **security, compliance, and audit requirements** 
 
 ## AWS Services Used
 - AWS Key Management Service (KMS)
-- AWS Identity and Access Management (IAM)
 - AWS CLI
 
 ---
@@ -142,9 +141,20 @@ Compared the original and decrypted files to confirm data integrity.
 The following validations confirm successful task completion:
 
 - KMS key `devops-KMS-Key` was created successfully
+
+  ![Key Created](screenshots/ss9-key-created.png)  
+
 - Sensitive data was encrypted using AWS KMS
+
+  ![Encryption](screenshots/ss10-encryption.png)
+
 - Encrypted data was decrypted using the same key
+
+  ![Decryption](screenshots/ss11-decryption.png)
+
 - Decrypted content matched the original file
+
+  ![Verification](screenshots/ss12-verification.png)
 
 ---
 

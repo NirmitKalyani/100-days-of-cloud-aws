@@ -3,7 +3,7 @@
 ## Task Overview
 As part of the **100 Days of Cloud (AWS)** challenge by **KodeKloud**, this task focuses on provisioning a secure and highly available **Amazon EKS (Elastic Kubernetes Service)** cluster.
 
-The Nautilus DevOps team is preparing infrastructure for a Kubernetes-based application. The requirement was to create an EKS cluster using the **latest stable Kubernetes version**, restrict external exposure by keeping the **cluster endpoint private**, and deploy the cluster in the **default VPC** across multiple availability zones for high availability.
+The Nautilus DevOps team is preparing infrastructure for a Kubernetes-based application. The requirement was to create an EKS cluster using the **Kubernetes version 1.30**, restrict external exposure by keeping the **cluster endpoint private**, and deploy the cluster in the **default VPC** across multiple availability zones for high availability.
 
 ---
 

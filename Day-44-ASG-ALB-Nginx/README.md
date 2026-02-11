@@ -38,7 +38,7 @@ This architecture reflects a **standard production-ready web application deploym
 ## Requirements
 - **Launch Template:** `xfusion-launch-template`
 - **Instance Type:** t2.micro
-- **AMI:** Amazon Linux
+- **AMI:** Amazon Linux 2
 - **Security Group:** Allow HTTP (Port 80)
 - **Auto Scaling Group:** `xfusion-asg`
   - Min: 1
@@ -217,34 +217,6 @@ Then created the Auto Scaling Group.
 Confirmed `xfusion-asg` was successfully created.
 
 ![ASG Created](screenshots/ss22-asg-created.png)
-
----
-
-### 23. Verified ALB Creation
-Confirmed `xfusion-alb` was created successfully.
-
-![ALB Created](screenshots/ss23-alb-created.png)
-
----
-
-### 24. Verified Target Group Health
-Verified that `xfusion-tg` had one healthy registered instance.
-
-![Target Group Healthy](screenshots/ss24-tg-healthy.png)
-
----
-
-### 25. Verified EC2 Instance
-Confirmed that the EC2 instance launched by ASG was running.
-
-![EC2 Running](screenshots/ss25-ec2-running.png)
-
----
-
-### 26. Verified Application Accessibility
-Accessed the ALB DNS name in the browser and confirmed that the **Nginx welcome page** was displayed.
-
-![Nginx Page](screenshots/ss26-nginx-page.png)
 
 ---
 

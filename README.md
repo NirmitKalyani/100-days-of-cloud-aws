@@ -116,6 +116,19 @@ After 50 days of consistent hands-on practice, I have:
 
 ---
 
+## Certification
+
+### 100 Days of Cloud (AWS) – KodeKloud
+
+Successfully completed the 100 Days of Cloud (AWS) challenge through structured, hands-on AWS implementations.
+
+Completed: February 17, 2026
+
+![100 Days of Cloud AWS Certificate](assets/100-days-of-aws.jpg)
+
+
+---
+
 ## Repository Structure
 
 Each day includes:
